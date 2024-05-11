@@ -1,4 +1,6 @@
 from cal_func import do_addition,do_subtraction
+from multiply import do_multiplication
+
 def main():
     print('Welcome to the Calculator App')
     print('''
@@ -15,6 +17,8 @@ if user_input == "1":
     result = do_addition(a,b)
 elif user_input =="2":
     result = do_subtraction(a,b)
+elif user_input == "3":
+    result = do_multiplication
 
 print("Result:",result)
 
